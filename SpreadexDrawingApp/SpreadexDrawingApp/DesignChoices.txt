@@ -1,0 +1,24 @@
+﻿Base Class
+
+I started with a base class for a few reasons:
+- Shared concept of co-ordinates
+- Wanted a printer that accepted a list of different objects
+- Wanted to have a shared print functionality for all Widgets that could be accessed from the base class.
+- Checking for positive numbers seemed like something that would be used in all widgets
+
+Static Printer
+
+I didn't feel I needed an instance of a new printer every time I wanted to print out the widget, this felt naturally static.
+It is a more a tool that is used to add the heading and lines around the widgets to be printed
+
+Check Number is Positive
+
+This check was what I was most unsure about as it would depend on how this bit of code is tied into the wider program.
+But for now it checks if the input is positive and sets it to 0 if not. When visualising the problem, in paint for example, 
+I can drag the mouse on a shape, but it will just grow in the other direction, not get infinitely smaller.
+
+Widget Types
+
+I used to Enums for the types, but that is not necessary, it does mean that the setting of the type is compeletely private.
+
+Thank you for the opportunity to do this code test. I had fun writing it for you.
